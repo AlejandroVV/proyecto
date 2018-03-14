@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="cssp.css" />
+	<title>REINOS VIRTUALES</title>
+</head>
+<body>
+	<header id="menu">
+		<h1>Contacta con nosotros</h1>
+	</header>
+	<div>
+		<nav>
+			<ul>
+				<li class="menu"><a href="Proyecto.html">Inicio</a></li>
+				<li class="menu"><a href="quien.html">¿Quiénes somos?</a></li>
+				<li class="menu"><a href="contacto.html">Contáctanos</a></li>
+			</ul> 
+		</nav>
+	<div>
+		<h2>Si necesitas contactarnos:</h2>
+	</div>
+	<div id="contenedor">
+		<div id="nombre">
+			<label for="nombre">Nombre</label>
+		</div>
+		<div id="texton">
+			<input type="text" name="nombre" />
+		</div>
+		<div id="email">
+			<label for="emailusuario">e-mail</label>
+		</div>
+		<div id="textoe">
+			<input type="text" name="emailusuario" required />
+		</div>
+		<div id="comentario">
+			<label for="comentario">Comentario</label>
+		</div>
+		<div id="textoc">
+			<input type="text" name="comentario" />
+		</div>
+		<div>
+			<input type="hidden" name="emailalumno" value="alejandroelectricidad95@gmail.com" />
+		</div>
+		<div>
+			<input type="hidden" name="plantillacorreo" value= "<p>Un usuario te enviado un correo y dice %comentario%. El usuario se llama %nombre%</p>" />
+		</div>
+		<div>
+			<input type="hidden" name="clavesecreta" value="3a881f46d2" />
+		</div>
+	</div>	
+	<div>
+		<img src="imagenes/facebook.jpg" alt="Facebook" />
+		<p>Alejandro Vicente Viddal</p>
+	</div>
+	<div>
+		<img src="imagenes/twitter.png" alt="Twitter" />
+		<p>@GranAlejandro95</p>
+	</div>
+	<a href="#menu">Volver al principio</a>
+</body>
+</html>

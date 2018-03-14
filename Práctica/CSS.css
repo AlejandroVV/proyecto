@@ -1,0 +1,15 @@
+@charset "utf-8";
+article { 
+		border: 2px solid black;
+}
+h1 { 
+	color: orange; 
+}
+.negro { 
+		font-weight: bold;
+}
+#logo { 
+  width: 30%;
+}
+		
+		
